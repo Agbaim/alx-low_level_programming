@@ -1,18 +1,16 @@
 #include <stdio.h>
 
-#include <string.h>
-
 
 
 /**
  *
- *  * main - Entry point
+ * * main - prints out a string via puts
  *
- *   *
+ * * Description: Program that prints out the string s followed by a new line
  *
- *    * Return: Always 0 (Success)
+ * * Return: int 0 when done and no errors
  *
- *     */
+ * */
 
 
 
@@ -20,10 +18,8 @@ int main(void)
 
 {
 
-	puts("\"Programming is like building a multilingual puzzle");
+		puts("\"Programming is like building a multilingual puzzle");
 
-
-
-	return (0);
+			return (0);
 
 }
