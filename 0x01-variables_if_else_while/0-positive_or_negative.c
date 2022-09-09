@@ -5,29 +5,17 @@
 /**
  *main - Entry point
  *
- *Return:Always 0 (Success/correct)
+ *Description:Prints a number and whether it is postive, neagtive or zero
+ *
+ * Return:0
  */
-
 int main(void)
 {
 int n;
 
 srand(time(0));
-n = rand() - RAND_MAX / 2
-if (n == 0)
-{
-printf("%i is zero\n", n);
-}
-
-else if (n < 0)
-{
-printf("%i is negative\n", n);
-}
-
-else
-{
-printf("%i is postive\n", n);
-}
-
+n = rand() - RAND_MAX / 2;
+printf("%d is %s\n", n, (n > 0) ? "postive"
+		                       : ((n < 0) ? "negative" : "zero"));
 return (0);
 }
