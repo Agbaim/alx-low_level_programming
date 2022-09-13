@@ -1,16 +1,17 @@
 #include "main.h"
-/**
- * print_alphabet - function to print abc
- *
- * Return: 0
- */
-void print_alphabet(void)
-{
-	char c;
 
-	for (c = 'a' ; c < = 'z' ; c++)
+/**
+ * print_alphabet -> prints the lower alphabets
+ */
+
+void print_alphabet(void);
+{
+	int j;
+
+	for (j = 'a' ; j < = 'z' ; j++)
 	{
-		_putchar(c);
+		_putchar(j);
 	}
-_putchar('\n');
+	_putchar('\n');
 }
+
