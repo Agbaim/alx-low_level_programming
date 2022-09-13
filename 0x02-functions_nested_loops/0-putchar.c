@@ -1,23 +1,20 @@
+#include <stdio.h>
 /**
- * main - program startup
-(*
- * Description: prints `_putchar`)?
- * Return: return (0) is the required function signature
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
-#include "main.h"
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
-
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar(10);
 	return (0);
 }
-
